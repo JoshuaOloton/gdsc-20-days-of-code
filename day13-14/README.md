@@ -7,10 +7,9 @@ This project focuses on serving static files such as images, CSS, JavaScript, an
 - [Introduction](#introduction)
 - [Setup](#setup)
 - [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
+- [Serving Static Files with Flask](#serving-static-files-with-flask)
 
-## Introduction
+## Introduction h
 
 In this project, we have implemented a method to serve static files on the backend server using Flask. This allows us to efficiently manage and deliver static content to the client-side of our web application.
 
@@ -36,15 +35,15 @@ Make sure to replace `http://localhost:3000` with your server's address if you'r
 
 
 ## Serving Static Files with Flask
-Here's a generalized illustration of serving static files using Flask, adhering to confidentiality:
+A generalized illustration of serving static files using Flask for this task:
 
 ![Flask entry](./app/static/entrycode.png)
 
-Index html template:
+#### Index html template:
 ![HTML template](./app/static/html_markup.png)
 
-CSS Static file:
+#### CSS Static file:
 ![Css File](./app/static/css_markup.png)
 
-Browser View:
+#### Browser View:
 ![Browser Result](./app/static/output.png)
